@@ -33,8 +33,8 @@ $themeBtn.addEventListener("click", changeTheme);
 // TAB
 
 const /* {nodelist} */ $tabBtn = document.querySelectorAll("[data-tab-btn]");
-let /* NodeElement */[lastActiveTab] = document.querySelectorAll("[data-tab-content]");
-let /* {NodeElement} */[lastActiveTabBtn] = $tabBtn;
+let [lastActiveTab] = document.querySelectorAll("[data-tab-content]");
+let [lastActiveTabBtn] = $tabBtn;
 
 $tabBtn.forEach(item => {
     item.addEventListener("click", function () {
@@ -42,7 +42,7 @@ $tabBtn.forEach(item => {
         lastActiveTab.classList.remove("active");
         lastActiveTabBtn.classList.remove("active");
 
-        const /* {NodeElement} */ $tabContent = document.querySelector(`[data-tab-content = "${item.dataset.tabBtn}"]`);
+        const /* {NodeElement} */ $tabContent = document.querySelector(`[data-tab-content="${item.dataset.tabBtn}"]`);
         $tabContent.classList.add("active");
         this.classList.add("active");
 
@@ -50,4 +50,5 @@ $tabBtn.forEach(item => {
         lastActiveTabBtn = this;
 
     });
+
 });
