@@ -105,6 +105,7 @@
 }
 
 [data-theme="dark"] {
+      color-scheme: dark;
 
     --background: var(--background-dark);
     --on-background: var(--on-background-dark);
@@ -853,5 +854,6 @@ body {
         gap: 24px;
     }
 }
+
 
 
