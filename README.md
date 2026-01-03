@@ -1,3 +1,6 @@
+## Live Deployment
+https://lakshmi-sreya.github.io/Portfolio-website/
+
 # Personal Portfolio Website
 
 This repository contains my personal portfolio website, developed to present my profile, technical skills, and projects in a structured and professional manner.
@@ -18,9 +21,6 @@ The objective of this project is to create a clean, responsive, and accessible w
 - HTML  
 - CSS  
 - JavaScript  
-
-## Live Deployment
-https://lakshmi-sreya.github.io/Portfolio-website/
 
 ## Purpose and Learning Outcomes
 - Apply frontend development fundamentals in a real-world project  
